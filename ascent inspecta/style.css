@@ -1,0 +1,110 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background: url('images/pexels-fauxels-3184292.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4f011bbe;
+}
+.carousel-inner img {
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; /* Customize control colors */
+}
+
+
+header {
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
+    color: #f4e0e0;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav .nav-link {
+    color: #f86767;
+    margin: 0 15px;
+}
+
+nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #007bff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('') no-repeat left center;
+    padding-left: 30px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: #5d0046;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.icon {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #5d0046;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .logo {
+        max-width: 150px; /* Adjust logo size */
+    }
+
+    .carousel-inner img {
+        height: auto; /* Allow images to be responsive */
+    }
+
+    nav .nav-link {
+        font-size: 14px; /* Smaller font for mobile */
+    }
+}
